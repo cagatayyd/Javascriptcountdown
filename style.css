@@ -1,0 +1,38 @@
+body{
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 25px;
+}
+button{
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px white;
+    outline: none;
+    width: 180px;
+    height: 60px;
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 4ms;
+}
+.inputx {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
